@@ -1,102 +1,61 @@
 <!--place in app.component.html-->
-<style>
-  .hana:hover{
-    opacity: 70%;
-  }
-  .im:hover{
-        width: 400px;
-        height: 600px;
-    }
-  .b:hover{
-    background-color: rgb(157, 150, 150);
-  }
-  .h:hover{
-    background-color: #17689F;
-    border-radius: 12px;
-  }
-  h1, h2, h3, h4, h5, h6{
-      opacity: 80%;
-  }
-  p{
-      font-size: 14px;
-      opacity: 80%;
-  }
- 
-  ul{
-      list-style: none;
-  }
-  ul li::before{
-      content: "\2022";
-color: rgb(100, 235, 127);
-font-weight:bolder;
-display: inline-block; 
-width: 2em;
-margin-left: -2em;
-  }
-  .navbar {
-overflow: hidden;
-position: fixed;
-top: 0;
-width: 100%;
-}
-</style>
-<nav class="navbar navbar-expand-lg" 
-style="background: fixed; position: absolute;">
-  <a class="navbar-brand" href="#" 
-  style="margin-left: 139px; color: white; font-weight: bolder;"><img class="hana" src="../assets/Hanasoft Logo.png" alt="" style="width:201px; height:40px"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+
+<nav class="navbar navbar-expand-lg navMain" style="position: absolute;">
+  <a class="navbar-brand navA" href="#"><img class="hana navImg" src="../assets/Hanasoft Logo.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
+  aria-controls="navbarNavAltMarkup" aria-expanded="false" 
+  aria-label="Toggle navigation">
+    <span><img src="../assets/clipart1101213.png" alt="" style="width:30px; height:30px"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ">
-       <a class="" href="#" style="margin-left: 228px;"><img class="hana" src="../../assets/Home - enable.png" alt=""></a>
+       <a class="navAA" href="#"><img class="hana" src="../../assets/Home - enable.png" alt=""></a>
         
-      <a class="nav-item nav-link h" href="#" style="color: white; opacity: 70%; margin-left: 25px;">About us</a>
+      <a class="nav-item nav-link h navAAA" href="#">About us</a>
       <!--<a class="nav-item nav-link" href="#" style="color: white;">Services</a>-->
-      <select class="h" name="" id="" 
-      style="background-color: transparent;overflow: hidden;color: white; border-color: transparent; opacity: 70%; margin-left: 25px;">
+      <select class="h navSelect" name="" id="" >
           <option value="" >Services</option>
       </select>
       <!--<a class="nav-item nav-link" href="#" style="color: white;">Analytics</a>-->
-      <select name="" id="" 
-      style="background-color: transparent;overflow: hidden;color: white; border-color: transparent; opacity: 70%; margin-left: 25px;">
+      <select class="navSelect" name="" id="" >
           <option value="">Analytics</option>
       </select>
-      <a [routerLink]="['/contact']" class="nav-item nav-link h" href="" style="color: white; opacity: 70%; margin-left: 25px; margin-right: 25px;">Contact us</a>
-      <button class="btn btn hana" style="border-radius: 20px; height: 34px;margin-top: 5px; color: #ffffff;
-      background: linear-gradient(#17689F, #001764);">
+      <a [routerLink]="['/contact']" class="nav-item nav-link h navContact" href="">Contact us</a>
+      <button class="btn btn hana navButton">
          <ul>
-             <li style=" opacity: 90%; ">Current openings</li>
+             <li class="navOpacity">Current openings</li>
          </ul> 
       </button>
     </div>
   </div>
 </nav>
-<div class="headers">
-  <img class=" bg-transparent" src="../../assets/Landing image.png" alt="" 
-  style="background-color: rgba(255, 255, 255, 0.25); width: 1366px; height: 711px;">
-  <div style="width: 536px; position: absolute;top: 258px; left: 415px;">
-      <h3 style="margin-left: 160px; font-size: 43px; color: white; opacity: 100%;" >Welcome To</h3>
-      <h3 style="margin-left: 160px; color: #17689F; font-size: 43px; font-weight: bolder; opacity: 100%;">HANASOFT</h3>
-      <p style="width: 556px; font: Montserrat; color: #FFFFFF;height: 10px;">
-        HANASOFT Solutions is a fast growing technology, IT consulting services</p>
-        <p style="text-align: center;height: 10px; color: white;">and Innovation company focused on leveraging technology and </p> 
-        <p style="text-align: center; color: white;">innovations to drive business value.</p> 
+<div>
+  <img class=" bg-transparent landingImg" src="../../assets/Landing image.png" alt="">
+  <div class="landingMain">
+      <h3 class="landingh3">Welcome To</h3>
+      <h3 class="landingh32">HANASOFT</h3>
+      <p class="landingp text-center">
+        HANASOFT Solutions is a fast growing technology, IT consulting services and Innovation company focused on leveraging technology and innovations to drive business value.</p>
+        <p class="landingp2"></p> 
+        <p class="landingp3"></p> 
+   
+        
     </div>
 </div>
 <div class="w3-row" style="background-color: black; height: 1081px;">
   <div class="w3-col m6" style="margin-top: 100px;" >
-      <h2 style="color: white; margin-left: 139px; font: 43px;font-weight: bolder; opacity: 100%;">Why To Choose</h2>
-      <h2 style="color: #17689F; margin-left: 139px; font: 43px;font-weight: bolder; opacity: 100%;">HANASOFT</h2>
-      <p style="color: white; margin-left: 139px;">HANASOFT Solutions is a fast growing technology, IT consulting services and Innovation company focused on leveraging technology and innovations to drive business value.</p>
-      <p style="color: white; margin-left: 139px;">We are powered by a talented IT and consulting professionals in S/4HANA, HANA, SAP Enterprise, BW on HANA, EDW, Big Data, Financials, Customer Relationship Management, Supply Chain Management, Human Resources and Web development amongst other capabilities.</p>
-      <img class="headers" src="../../assets/about us.png" alt="" style="margin-left: 139px;margin-top: 102px;">
+    
+      <h2 class="whytochoose">Why To Choose</h2>
+      <h2 class="Hanasoft">HANASOFT</h2>
+      <p class="centerP">HANASOFT Solutions is a fast growing technology, IT consulting services and Innovation company focused on leveraging technology and innovations to drive business value.</p>
+      <p class="centerP">We are powered by a talented IT and consulting professionals in S/4HANA, HANA, SAP Enterprise, BW on HANA, EDW, Big Data, Financials, Customer Relationship Management, Supply Chain Management, Human Resources and Web development amongst other capabilities.</p>
+      <img src="../../assets/about us.png" alt="" class="centerImg">
   </div>
-  <div class="w3-col m6" >
-      <img class="headers" src="../../assets/Why to choose hanasoft image.png" alt="">
-      <h3 style="color: white;font-weight: bolder;">About us</h3>
-      <p style="color: white;">HANASOFT Solutions is a fast growing technology, IT consulting services and Innovation.</p>
-      <p style="color: white;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+  <div class="w3-col m6 backcolor">
+      <img class="whytoc" src="../../assets/Why to choose hanasoft image.png" alt="">
+      <h3 class="aboutColorh3" style="font-weight: bolder;">About us</h3>
+      <p class="aboutColor">HANASOFT Solutions is a fast growing technology, IT consulting services and Innovation.</p>
+      <p class="aboutColor">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
       <!--<button style="background-color: #001764; color: white; border-radius: 30%;
            border-color: #17689F;">Know more</button>-->
       <button class="btn hana " 
@@ -104,20 +63,16 @@ style="background: fixed; position: absolute;">
   </div>
 </div>
 
-<div class="w3-card headers" 
-style="width: 526px; height: 145px;
-background: linear-gradient(#17689F, #001764); margin-left: 840px; margin-top: -90px; 
-border-top-left-radius: 70px; border-bottom-left-radius: 70px;" >
-  <h6 style="padding-top: 30px; width: 360px; 
-  text-align: center;padding-left: 30px; color: white;">Whatever your reason for seeking business consulting & advice?</h6>
-  <h5 style="padding-left: 60px; color: white;">You’ve come to the right place...</h5>
+<div class="w3-card cardS"  >
+  <h6 class="cardsh6">Whatever your reason for seeking business consulting & advice?</h6>
+  <h5 class="cardsh5">You’ve come to the right place...</h5>
 </div>
 <div class="w3-row">
   <div class="w3-col m6">
       <h6></h6>
   </div>
   <div class="w3-col m6">
-      <h3 style="color: #17689F; font-size: 32px; font-weight: bolder; opacity: 100%;" >Our Service</h3>
+      <h3 class="ourService" style="color: #17689F; font-size: 32px; font-weight: bolder; opacity: 100%;" >Our Service</h3>
       <p style="color: #333333; opacity: 100%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
   </div>
 </div>
@@ -126,21 +81,22 @@ border-top-left-radius: 70px; border-bottom-left-radius: 70px;" >
   <div class="w3-col m1">
       <h1></h1>
   </div>
-  <div class="w3-col m3" style="padding-top: 200px;">
-      <h3 style="color: #17689F;font-weight: bold; opacity: 100%;">IT Services</h3>
+  <div class="w3-col m3 itPadd">
+      <h3 class="itService" style="color: #17689F;font-weight: bold; opacity: 100%;">IT Services</h3>
      <p style="color: #333333; opacity: 100%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
   </div>
+ 
   <div class="w3-col m4">
       <img class="im" src="../../assets/Our Serivces.png" alt="">
-      <div style="position: absolute; top: 2141px; left: 530px; color: white;">
+      <div class="support">
           <h4 style="font-weight: bold;">Support</h4>
-          <h6 style="width: 280px;">Lorem Ipsum is simply dummy 
+          <h6 class="supporth6">Lorem Ipsum is simply dummy 
               text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</h6>
-              <a href=""><img src="../../assets/Read more(Next) - Disable.png" alt=""></a>
+              <a class="readMore" href=""><img src="../../assets/Read more(Next) - Disable.png" alt=""></a>
       </div>
   </div>
-  <div class="w3-col m3"  style="padding-top: 200px;">
-      <h3 style="color: #17689F; font-weight: bold; opacity: 100%;">Workforce Solutions</h3>
+  <div class="w3-col m3 itPadd">
+      <h3 class="workforceSolutions" style="color: #17689F; font-weight: bold; opacity: 100%;">Workforce Solutions</h3>
       <p style="color: #333333; opacity: 100%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
   </div>
   <div class="w3-col m1">
@@ -149,54 +105,37 @@ border-top-left-radius: 70px; border-bottom-left-radius: 70px;" >
 </div><br><br>
 
 <div class="w3-row">
-  <div class="w3-col m6">
-     <img class="headers" src="../../assets/Analytics.png" alt="">
+  <div class="w3-col m6 s12">
+     <img class="analytics" src="../../assets/Analytics.png" alt="">
   </div>
-  <div class="w3-col m6">
-      <h2 style="color:#17689F ;font-weight: bold; opacity: 100%;">Analytics</h2>
-      <p style="color: #333333; opacity: 100%;
-      width: 500px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+  <div class="w3-col m6 s12">
+      <h2 class="analytics" style="color:#17689F ;font-weight: bold; opacity: 100%;">Analytics</h2>
+      <p class="lorem" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
         </div>
 
 </div>
-<!--
-<div class="w3-row" style="background-color: #17689F;
-margin-top: -256px;" >
-  <div class="w3-col m6">
-      <h1></h1>
-  </div>
-  <div class="w3-col m6" style=" margin-top: -246px;">
-      <h2>Big Data / Cloud</h2>
-      <p style="width: 547px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-      <img src="../../assets/Read more(Next) - Disable.png" alt="" style="background-color: #17689F;">
-      <br><br>
-  </div><br><br><br>
-</div>
 
-<app-footer></app-footer>-->
 
-<div style="background: linear-gradient( #001764, #17689F); height: 613px;">
-  <div class="w3-row" style="color: white;
-  margin-top: -256px;" >
+<div class="bigdata">
+  <div class="w3-row bigdataRow" >
      <div class="w3-col m6">
          <h1></h1>
      </div>
-     <div class="w3-col m6" style=" margin-top: -246px;">
-         <h2 style="font-weight: bold; opacity: 100%;">Big Data / Cloud</h2>
-         <p style="width: 547px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-         <a href=""><img src="../../assets/Read more(Next) - Disable.png" alt=""></a>
+     <div class="w3-col m6 bigdata2">
+         <h2 class="bigData" style="font-weight: bold; opacity: 100%; color: #17689F;">Big Data / Cloud</h2>
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+         <a href=""><img class="readMore" src="../../assets/Read more(Next) - Disable.png" alt=""></a>
          <br><br>
      </div><br><br><br>
  </div>
- <app-footer class="headers"></app-footer>
+ <app-footer></app-footer>
 </div>
 
-<div style=" margin-left: 1188px; width: 409px;height: 0px;">
-  <img src="../../assets/Design 1.png" alt=""
-  style="margin-top: -1700px;">
+<div class="imgdown">
+  <img class="design1" src="../../assets/Design 1.png" alt="">
 </div>
-<div style=" width: 76px; height: 268.66px; position: absolute; top: 1100px;">
-  <img src="../assets/Design 3.png" alt="" style="margin-left: 70px;">
+<div class="imgdown2">
+  <img class="design3" src="../assets/Design 3.png" alt="">
 </div>
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">

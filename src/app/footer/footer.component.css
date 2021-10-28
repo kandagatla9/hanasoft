@@ -1,0 +1,91 @@
+.stayConnected{
+        color: #17689F;font-weight: bold;
+    }
+    .footers{
+        width: 1088px; background-color: white; margin-left: 139px; padding-top: 45px;padding-bottom: 35px; padding-right: 24px;
+border-radius: 6px 6px 0px 0px;
+    }
+    .footerInput{
+        width: 170px; border-width: 1px; border-color: rgb(235, 233, 233);height: 34px; border-radius: 17px;
+    }
+    .footerHeight{
+        height: 12px;
+    }
+    .aText{
+        text-decoration: none;
+    }
+    .h5Footer{
+        color: #17689F; font-weight: bold;
+    }
+    .colorFooter{
+        color: #17689F;
+    }
+    .copyFooter{
+        width: 1088px; background-color: rgb(232, 228, 228); margin-left: 139px;height: 25px;
+    }
+    .copyFooter2{
+        font-size: 10px; margin-left: 46px;
+    }
+    .icons{
+        margin-right: 15px;
+    }
+    .h:hover{
+       color: #17689F;
+    }
+    .i:hover{
+       width: 10px;
+    }
+    p{
+        color: #777676;
+    }
+
+
+    /*----*/
+    @media screen and (min-width:320px) and (max-width:480px){
+        .contactUs{
+            text-align: center;
+        }
+        .copySpan{
+            display: none;
+        }
+    .stayConnected{
+        color: #17689F;font-weight: bold;
+    }
+    .footers{
+        width: 360px; background-color: white; margin-left: 0px; padding-top: 45px;padding-bottom: 35px; padding-right: 24px;
+    border-radius: 6px 6px 0px 0px;
+    }
+    .footerInput{
+        width: 170px; border-width: 1px; border-color: rgb(235, 233, 233);height: 34px; border-radius: 17px;
+    }
+    .footerHeight{
+        height: 12px;
+    }
+    .aText{
+        text-decoration: none;
+    }
+    .h5Footer{
+        color: #17689F; font-weight: bold;
+    }
+    .colorFooter{
+        color: #17689F;
+    }
+    .copyFooter{
+        width: 360px; background-color: rgb(232, 228, 228); margin-left: 0px;height: 25px;
+    }
+    .copyFooter2{
+        font-size: 10px; margin-left: 0px;
+    }
+    .icons{
+        margin-right: 15px;
+    }
+    .h:hover{
+       color: #17689F;
+    }
+    .i:hover{
+       width: 10px;
+    }
+    p{
+        color: #777676;
+    }
+    }

@@ -5,18 +5,372 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  @media screen and (min-width:320px) and (max-width:480px){
-      .w{
-          width: 360px;
-      }
-      .m{
-          margin-left: 0px;
-      }
-      .headers{
-          display: none;
-      }
-      body{
-          width: 360px;
-      }
+  /*-----*/
+   /*-----*/
+    /*-----*/
+     /*-----*/
 
+  .navMain{
+    background: fixed; position: absolute;
   }
+  .navA{
+    margin-left: 139px; color: white; font-weight: bolder;
+  }
+  .navImg{
+    width:201px; height:40px
+  }
+  .navAA{
+    margin-left: 228px;
+  }
+  .navAAA{
+    color: white; opacity: 70%; margin-left: 25px;
+  }
+  .navSelect{
+    background-color: transparent;overflow: hidden;color: white; border-color: transparent; opacity: 70%; margin-left: 25px;
+  }
+  .navButton{
+    border-radius: 20px; height: 34px;margin-top: 5px; color: #ffffff;
+      background: linear-gradient(#17689F, #001764);
+  }
+  .navContact{
+    color: white; opacity: 70%; margin-left: 25px; margin-right: 25px;
+  }
+  .navOpacity{
+    opacity: 90%; 
+  }
+  .landingImg{
+    background-color: rgba(255, 255, 255, 0.25); width: 1366px; height: 711px;
+  }
+  .landingMain{
+    width: 536px; position: absolute;top: 258px; left: 415px;
+  }
+  .landingh3{
+    margin-left: 160px; font-size: 43px; color: white; opacity: 100%;
+  }
+  .landingh32{
+    margin-left: 160px; color: #17689F; font-size: 43px; font-weight: bolder; opacity: 100%;
+  }
+  .landingp{
+    width: 556px; font: Montserrat; color: #FFFFFF;height: 10px;
+  }
+  .landingp2{
+    text-align: center;height: 10px; color: white;
+  }
+  .landingp3{
+    text-align: center; color: white;
+  }
+  .whytochoose{
+      color: white; margin-left: 139px; font: 43px;font-weight: bolder; opacity: 100%;
+    }
+    .Hanasoft{
+      color: #17689F; margin-left: 139px; font: 43px;font-weight: bolder; opacity: 100%;
+    }
+    .centerP{
+      color: white; margin-left: 139px;
+    }
+    .centerImg{
+      margin-left: 139px;margin-top: 102px;
+    }
+    .support{
+    position: absolute; top: 2141px; left: 530px; color: white;
+  }
+  .supporth6{
+    width: 280px;
+  }
+  .imgdown{
+  margin-left: 1188px; width: 409px;height: 0px;
+}
+.imgdown2{
+  width: 76px; height: 268.66px; position: absolute; top: 1100px;
+}
+    .cardS{
+  width: 526px; height: 145px;
+background: linear-gradient(#17689F, #001764); margin-left: 840px; margin-top: -90px; 
+border-top-left-radius: 70px; border-bottom-left-radius: 70px;
+}
+.cardsh6{
+  padding-top: 30px; width: 360px; 
+  text-align: center;padding-left: 30px; color: white;
+}
+.bigdata{
+  background: linear-gradient( #001764, #17689F); height: 613px;
+}
+.bigdataRow{
+  color: white;
+  margin-top: -256px;
+}
+.design1{
+  margin-top: -1700px;
+}
+.bigdata2{
+  margin-top: -246px;
+}
+.bigdataP{
+  width: 547px;
+}
+.cardsh5{
+  padding-left: 60px; color: white;
+}
+.design3{
+  margin-left: 70px;
+}
+  .hana:hover{
+    opacity: 70%;
+  }
+  .im:hover{
+        width: 400px;
+        height: 600px;
+    }
+  .b:hover{
+    background-color: rgb(157, 150, 150);
+  }
+  .h:hover{
+    background-color: #17689F;
+    border-radius: 12px;
+  }
+  h1, h2, h3, h4, h5, h6{
+      opacity: 80%;
+  }
+  p{
+      font-size: 14px;
+      opacity: 80%;
+  }
+ 
+  ul{
+      list-style: none;
+  }
+  ul li::before{
+      content: "\2022";
+color: rgb(100, 235, 127);
+font-weight:bolder;
+display: inline-block; 
+width: 2em;
+margin-left: -2em;
+  }
+  .navbar {
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
+}
+.itPadd{
+    padding-top: 200px;
+  }
+.lorem{
+    color: #333333; opacity: 100%;
+      width: 500px;
+}
+.aboutColor{
+    color: white;
+}
+
+/*---*/
+/*---*/
+/*---*/
+/*---*/
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .readMore{
+        display: none;
+    }
+    .itService{
+        text-align: center;
+    }
+    .workforceSolutions{
+        text-align: center;
+    }
+    .analytics{
+        text-align: center;
+    }
+    .bigData{
+        text-align: center;
+    }
+    .hana{
+        text-align: center;
+        margin-left: -40px;
+    }
+    .aboutColor{
+        color: rgb(21, 20, 20);
+    }
+    .aboutColorh3{
+        color: #17689F;
+        text-align: center;
+    }
+    .ourService{
+        text-align: center;
+    }
+    .lorem{
+        color: #333333; opacity: 100%;
+      width: 360px;
+    }
+    .whytoc{
+        width: 360px;
+    }
+    .analytics{
+        width: 360px;
+    }
+    .w{
+        width: 360px;
+    }
+    .m{
+        margin-left: 0px;
+    }
+    .headers{
+        display: none;
+    }
+    
+  .navMain{
+    background: fixed; position: absolute;
+  }
+  .navA{
+    margin-left:20%; color: white; font-weight: bolder;
+  }
+  .navImg{
+    width:201px; height:40px
+  }
+  .navAA{
+    margin-left: 228px;
+  }
+  .navAAA{
+    color: white; opacity: 70%; margin-left: 25px;
+  }
+  .navSelect{
+    background-color: transparent;overflow: hidden;color: white; border-color: transparent; opacity: 70%; margin-left: 25px;
+  }
+  .navButton{
+    border-radius: 20px; height: 34px;margin-top: 5px; color: #ffffff;
+      background: linear-gradient(#17689F, #001764);
+  }
+  .navContact{
+    color: white; opacity: 70%; margin-left: 25px; margin-right: 25px;
+  }
+  .navOpacity{
+    opacity: 90%; 
+  }
+  .landingImg{
+    background-color: rgba(255, 255, 255, 0.25); width: 360px; height: 711px;
+  }
+  .landingMain{
+    width: 360px; position: absolute;top: 258px; left: 0px; text-align: center;
+  }
+  .landingh3{
+    margin-left: 0px; font-size: 43px; color: white; opacity: 100%;
+  }
+  .landingh32{
+    margin-left: 0px; color: #17689F; font-size: 43px; font-weight: bolder; opacity: 100%;
+  }
+  .landingp{
+    width: 360px; font: Montserrat; color: #FFFFFF;height: 25px;
+  }
+  .landingp2{
+    text-align: center;height: 10px; color: white;height: 25px;
+  }
+  .landingp3{
+    text-align: center; color: white;
+  }
+  .backcolor{
+    background-color: #ffffff;
+  }
+  .itPadd{
+    padding-top: 0px;
+  }
+  .whytochoose{
+      color: white; margin-left: 0px; font: 43px;font-weight: bolder; opacity: 100%;text-align: center;
+    }
+    .Hanasoft{
+      color: #17689F; margin-left: 0px; font: 43px;font-weight: bolder; opacity: 100%;text-align: center;
+    }
+    .centerP{
+      color: white; margin-left: 0px;
+    }
+    .centerImg{
+      margin-left: 0px;margin-top: 102px; width: 360px;
+    }
+    .support{
+    display: none;
+  }
+  .supporth6{
+    width: 280px;
+  }
+  .imgdown{
+  display: none;
+}
+.imgdown2{
+  display: none;
+}
+    .cardS{display: none;
+  /*width: 526px; height: 145px;
+background: linear-gradient(#17689F, #001764); margin-left: 0px; margin-top: 790px; 
+border-top-left-radius: 70px; border-bottom-left-radius: 70px;*/
+}
+.cardsh6{
+  padding-top: 30px; width: 360px; 
+  text-align: center;padding-left: 30px; color: white;
+}
+.bigdata{
+  background: linear-gradient( #001764, #17689F); height: 613px;
+}
+.bigdataRow{
+  color: black;
+  margin-top: 256px;
+}
+.design1{
+  margin-top: -1700px;
+}
+.bigdata2{
+  margin-top: -246px;
+}
+bigdataP{
+  width: 547px;
+}
+.cardsh5{
+  padding-left: 60px; color: white;
+}
+.design3{
+  margin-left: 70px;
+}
+  .hana:hover{
+    opacity: 70%;
+  }
+  .im:hover{
+        width: 400px;
+        height: 600px;
+    }
+  .b:hover{
+    background-color: rgb(157, 150, 150);
+  }
+  .h:hover{
+    background-color: #17689F;
+    border-radius: 12px;
+  }
+  h1, h2, h3, h4, h5, h6{
+      opacity: 80%;
+  }
+  p{
+      font-size: 14px;
+      opacity: 80%;
+  }
+ 
+  ul{
+      list-style: none;
+  }
+  ul li::before{
+      content: "\2022";
+color: rgb(100, 235, 127);
+font-weight:bolder;
+display: inline-block; 
+width: 2em;
+margin-left: -2em;
+  }
+  .navbar {
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
+}
+    }
+
