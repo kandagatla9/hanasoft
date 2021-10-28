@@ -1,5 +1,19 @@
 <!--place in app.component.html-->
 <style>
+  .hana:hover{
+    opacity: 70%;
+  }
+  .im:hover{
+        width: 400px;
+        height: 600px;
+    }
+  .b:hover{
+    background-color: rgb(157, 150, 150);
+  }
+  .h:hover{
+    background-color: #17689F;
+    border-radius: 12px;
+  }
   h1, h2, h3, h4, h5, h6{
       opacity: 80%;
   }
@@ -29,17 +43,17 @@ width: 100%;
 <nav class="navbar navbar-expand-lg" 
 style="background: fixed; position: absolute;">
   <a class="navbar-brand" href="#" 
-  style="margin-left: 139px; color: white; font-weight: bolder;"><img src="../assets/Hanasoft Logo.png" alt="" style="width:201px; height:40px"></a>
+  style="margin-left: 139px; color: white; font-weight: bolder;"><img class="hana" src="../assets/Hanasoft Logo.png" alt="" style="width:201px; height:40px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ">
-       <a href="#" style="margin-left: 228px;"><img src="../../assets/Home - enable.png" alt=""></a>
+       <a class="" href="#" style="margin-left: 228px;"><img class="hana" src="../../assets/Home - enable.png" alt=""></a>
         
-      <a class="nav-item nav-link" href="#" style="color: white; opacity: 70%; margin-left: 25px;">About us</a>
+      <a class="nav-item nav-link h" href="#" style="color: white; opacity: 70%; margin-left: 25px;">About us</a>
       <!--<a class="nav-item nav-link" href="#" style="color: white;">Services</a>-->
-      <select name="" id="" 
+      <select class="h" name="" id="" 
       style="background-color: transparent;overflow: hidden;color: white; border-color: transparent; opacity: 70%; margin-left: 25px;">
           <option value="" >Services</option>
       </select>
@@ -48,8 +62,8 @@ style="background: fixed; position: absolute;">
       style="background-color: transparent;overflow: hidden;color: white; border-color: transparent; opacity: 70%; margin-left: 25px;">
           <option value="">Analytics</option>
       </select>
-      <a [routerLink]="['/contact']" class="nav-item nav-link" href="" style="color: white; opacity: 70%; margin-left: 25px; margin-right: 25px;">Contact us</a>
-      <button class="btn btn" style="border-radius: 20px; height: 34px;margin-top: 5px; color: #ffffff;
+      <a [routerLink]="['/contact']" class="nav-item nav-link h" href="" style="color: white; opacity: 70%; margin-left: 25px; margin-right: 25px;">Contact us</a>
+      <button class="btn btn hana" style="border-radius: 20px; height: 34px;margin-top: 5px; color: #ffffff;
       background: linear-gradient(#17689F, #001764);">
          <ul>
              <li style=" opacity: 90%; ">Current openings</li>
@@ -85,7 +99,7 @@ style="background: fixed; position: absolute;">
       <p style="color: white;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
       <!--<button style="background-color: #001764; color: white; border-radius: 30%;
            border-color: #17689F;">Know more</button>-->
-      <button class="btn  " 
+      <button class="btn hana " 
       style="background-color:#050d26;color: white ; border-color: #17689F; border-radius: 30px;">Know more</button>
   </div>
 </div>
@@ -117,7 +131,7 @@ border-top-left-radius: 70px; border-bottom-left-radius: 70px;" >
      <p style="color: #333333; opacity: 100%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
   </div>
   <div class="w3-col m4">
-      <img src="../../assets/Our Serivces.png" alt="">
+      <img class="im" src="../../assets/Our Serivces.png" alt="">
       <div style="position: absolute; top: 2141px; left: 530px; color: white;">
           <h4 style="font-weight: bold;">Support</h4>
           <h6 style="width: 280px;">Lorem Ipsum is simply dummy 
@@ -170,7 +184,7 @@ margin-top: -256px;" >
      <div class="w3-col m6" style=" margin-top: -246px;">
          <h2 style="font-weight: bold; opacity: 100%;">Big Data / Cloud</h2>
          <p style="width: 547px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-         <img src="../../assets/Read more(Next) - Disable.png" alt="">
+         <a href=""><img src="../../assets/Read more(Next) - Disable.png" alt=""></a>
          <br><br>
      </div><br><br><br>
  </div>
