@@ -1,3 +1,5 @@
+@media screen and (min-width:1000px) and (max-width:1366px){
+    
 .centered {
     color: white;
     position: absolute;
@@ -162,6 +164,8 @@ width: 100%;
 }
 .aboutColor{
     color: white;
+}
+
 }
 
 /*---*/
