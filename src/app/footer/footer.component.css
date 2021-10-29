@@ -59,10 +59,10 @@ border-radius: 6px 6px 0px 0px;
         width: 170px; border-width: 1px; border-color: rgb(235, 233, 233);height: 34px; border-radius: 17px;
     }
     .footerHeight{
-        height: 12px;
+        height: 12px; font-size: 11px;
     }
     .aText{
-        text-decoration: none;
+        text-decoration: none; 
     }
     .h5Footer{
         color: #17689F; font-weight: bold;
