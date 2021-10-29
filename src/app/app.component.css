@@ -132,13 +132,14 @@ border-top-left-radius: 70px; border-bottom-left-radius: 70px;
     background-color: #17689F;
     border-radius: 12px;
   }
+  /*
   h1, h2, h3, h4, h5, h6{
       opacity: 80%;
   }
   p{
       font-size: 14px;
       opacity: 80%;
-  }
+  }*/
  
   ul{
       list-style: none;
@@ -330,7 +331,7 @@ border-top-left-radius: 70px; border-bottom-left-radius: 70px;*/
 .bigdata2{
   margin-top: -246px;
 }
-bigdataP{
+.bigdataP{
   width: 547px;
 }
 .cardsh5{
@@ -353,6 +354,7 @@ bigdataP{
     background-color: #17689F;
     border-radius: 12px;
   }
+  /*
   h1, h2, h3, h4, h5, h6{
       opacity: 80%;
   }
@@ -360,7 +362,7 @@ bigdataP{
       font-size: 14px;
       opacity: 80%;
   }
- 
+ */
   ul{
       list-style: none;
   }
