@@ -21,7 +21,7 @@
      color: white; font-weight: bolder;
   }
   .navImg{
-    width:201px; height:40px
+    width:201px; height:40px; margin-left: 139px;
   }
   .navAA{
     margin-left: 228px;
@@ -185,6 +185,12 @@ width: 100%;
 
 
 @media screen and (min-width:320px) and (max-width:480px){
+    .knowmore{
+        margin-left: 30%;
+    }
+    .ourP{
+        text-align: center;
+    }
     .bigP{
         color: black;
     }
@@ -209,6 +215,7 @@ width: 100%;
     }
     .aboutColor{
         color: rgb(21, 20, 20);
+        text-align: center;
     }
     .aboutColorh3{
         color: #17689F;
@@ -244,7 +251,7 @@ width: 100%;
      color: white; font-weight: bolder;
   }
   .navImg{
-    width:201px; height:40px
+    width:201px; height:40px; margin-left: 0px;
   }
   .navAA{
     margin-left: 228px;
@@ -299,7 +306,7 @@ width: 100%;
       color: #17689F; margin-left: 0px; font: 43px;font-weight: bolder;text-align: center;
     }
     .centerP{
-      color: white; margin-left: 0px;
+      color: white; margin-left: 0px; text-align: center;
     }
     .centerImg{
       margin-left: 0px;margin-top: 102px; width: 360px;
